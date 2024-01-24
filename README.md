@@ -4,7 +4,7 @@
 WatchJuliaBurn aims at destroying the look of your code by adding emojis like :smile: and kaomojis like c╯°□°ↄ╯ instead of your favorite Julia functions.
 For a serious use of unicode characters see also [Ueauty.jl](https://gitlab.com/ExpandingMan/Ueauty.jl)
 
-## Add your own awfulness!
+## Add your own awfulness!!!!!
 
 Don't hesitate to add your worst creations via PR. All you need to do is to add the function and emoji to the `func_to_emojis` internal `Dict`. Don't touch the `README`!
 It will be automatically generated after your PR is merged. Also tests are optional since tests are for losers!
