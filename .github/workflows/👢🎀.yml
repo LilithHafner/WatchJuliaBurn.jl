@@ -3,7 +3,7 @@ name: Adapt README
 on:
   push:
       branches:
-        - master
+        - '🖐️'
 jobs:
   adapt_readme:
     runs-on: ubuntu-latest
@@ -13,7 +13,7 @@ jobs:
         with:
           version: 1
       - run: |
-          julia  -e 'using Pkg; Pkg.add("Latexify"); Pkg.develop(path="."); include("src/create_README.jl")'
+          julia  -e 'using Pkg; Pkg.add("Latexify"); Pkg.develop(path="."); include("📜/👢🎀.jl")'
           echo $(git diff) 
       - uses: EndBug/add-and-commit@v7
         with:
